@@ -1,0 +1,307 @@
+/* Basic CSS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #111827;
+    background-color: white;
+}
+
+
+/* Header */
+
+header {
+    background-color: #0b2347;
+    color: white;
+
+    padding: 15px 4%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+
+/* Navigation */
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+    margin-left: 30px;
+
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+/* Home */
+
+.home {
+    background-color: #eef6ff;
+
+    padding: 45px 18%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro {
+    width: 55%;
+}
+
+.intro h2 {
+    font-size: 38px;
+    color: #102b52;
+
+    margin: 0 0 5px;
+}
+
+.intro h3 {
+    font-size: 25px;
+    color: #1760bd;
+
+    margin: 0 0 12px;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* Button */
+
+button {
+    background-color: #102f5b;
+    color: white;
+
+    border: none;
+
+    padding: 11px 28px;
+
+    border-radius: 4px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1760bd;
+}
+
+
+/* Photo */
+
+.photo img {
+    width: 230px;
+    height: 230px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 7px solid white;
+
+    box-shadow: 0 2px 8px gray;
+}
+
+
+/* Main */
+
+main {
+    width: 75%;
+    margin: 30px auto;
+}
+
+
+/* About, Skills and Education */
+
+.top-content {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1.6fr;
+
+    gap: 35px;
+}
+
+h2 {
+    color: #102b52;
+}
+
+
+/* List */
+
+ul {
+    padding-left: 20px;
+
+    line-height: 1.7;
+}
+
+
+/* Table */
+
+table {
+    width: 100%;
+
+    border-collapse: separate;
+
+    border-spacing: 0;
+}
+
+th,
+td {
+    border: 1px solid #c7c7c7;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+/* Projects */
+
+.projects {
+    margin-top: 35px;
+
+    width: 65%;
+}
+
+.project-box {
+    display: flex;
+
+    gap: 18px;
+}
+
+.project {
+    border: 1px solid #d0d0d0;
+
+    padding: 12px;
+
+    flex: 1;
+}
+
+.project h3 {
+    color: #102b52;
+}
+
+.project p {
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+.project a {
+    color: #0066cc;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+
+/* Contact */
+
+.contact {
+    width: 32%;
+
+    margin-left: 68%;
+
+    margin-top: -200px;
+}
+
+
+/* Form */
+
+form label {
+    display: block;
+
+    margin-top: 10px;
+
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 4px;
+
+    border: 1px solid #c7c7c7;
+
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* Reset Button */
+
+.reset {
+    background-color: #ddd;
+
+    color: black;
+
+    margin-left: 5px;
+}
+
+
+/* Social */
+
+.social {
+    margin-top: 35px;
+}
+
+.social a {
+    display: inline-block;
+
+    margin-right: 20px;
+
+    color: #1760bd;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #0b2347;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 18px;
+
+    margin-top: 40px;
+}
